@@ -1,0 +1,23 @@
+# Ignore Terraform lock file
+.terraform.lock.hcl
+terraform-provider-azurerm_v4.28.0_x5.exe
+terraform-provider-azurerm_*.exe
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform directory (stores downloaded provider binaries)
+.terraform/
+.terraform
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files (used to modify Terraform settings)
+override.tf
+override.tf.json
+
+# Ignore plan output (if storing plans locally)
+*.tfplan
+
